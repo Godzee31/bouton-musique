@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouton pour jouer de la musique</title>
+</head>
+<body>
+  <h2>Cliquez sur le bouton pour jouer la musique</h2>
+  <!-- Bouton cliquable -->
+  <button id="playMusicButton">Jouer la musique</button>
+  
+  <!-- Élément audio -->
+  <!-- Remplacez "https://www.youtube.com/watch?v=S280Pqq3T_w"
+  <audio id="musicPlayer" src="https://www.youtube.com/watch?v=S280Pqq3T_w"></audio>
+  
+  <script>
+    document.getElementById('playMusicButton').addEventListener('click', function() {
+      document.getElementById('musicPlayer').play();
+    });
+  </script>
+</body>
+</html>
