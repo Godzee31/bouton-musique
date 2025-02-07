@@ -10,14 +10,16 @@
   <!-- Bouton cliquable -->
   <button id="playMusicButton">Jouer la musique</button>
   
-  <!-- Élément audio avec les contrôles (pour débogage) -->
-  <!-- Utilisation de l'URL RAW pour accéder au fichier audio -->
-  <audio id="musicPlayer" controls src="https://github.com/Godzee31/bouton-musique/raw/refs/heads/main/Circus%20Clown%20Music%20-%20Sound%20Effect%20(HD).mp3"></audio>
+  <!-- Élément audio avec contrôle, preload et crossOrigin pour le débogage -->
+  <audio id="musicPlayer" controls preload="auto" crossOrigin="anonymous"
+    src="https://raw.githubusercontent.com/Godzee31/bouton-musique/main/Circus%20Clown%20Music%20-%20Sound%20Effect%20(HD).mp3">
+  </audio>
   
   <script>
     document.getElementById('playMusicButton').addEventListener('click', function() {
       console.log("Bouton cliqué");
-      document.getElementById('musicPlayer').play()
+      var player = document.getElementById('musicPlayer');
+      player.play()
         .then(() => {
           console.log("La lecture a démarré");
         })
