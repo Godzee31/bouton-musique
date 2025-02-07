@@ -11,7 +11,7 @@
   <button id="playMusicButton">Jouer la musique</button>
   
   <!-- Élément audio -->
-  <!-- Remplacez "https://www.youtube.com/watch?v=S280Pqq3T_w"
+  <!-- Remplacez "https://https://github.com/Godzee31/bouton-musique/blob/main/Circus%20Clown%20Music%20-%20Sound%20Effect%20(HD).mp3"
   <audio id="musicPlayer" src="https://github.com/Godzee31/bouton-musique/blob/main/Circus%20Clown%20Music%20-%20Sound%20Effect%20(HD).mp3"></audio>
   
   <script>
